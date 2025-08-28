@@ -1,0 +1,275 @@
+[
+  {
+    "id": "role_1",
+    "name": "System Administrator",
+    "parentId": null,
+    "members": 2,
+    "childNumber": 4
+  },
+  {
+    "id": "role_2",
+    "name": "Area Manager - North",
+    "parentId": "role_1",
+    "members": 3,
+    "childNumber": 2
+  },
+  {
+    "id": "role_3",
+    "name": "Area Manager - South",
+    "parentId": "role_1",
+    "members": 3,
+    "childNumber": 2
+  },
+  {
+    "id": "role_4",
+    "name": "Area Manager - East",
+    "parentId": "role_1",
+    "members": 2,
+    "childNumber": 1
+  },
+  {
+    "id": "role_5",
+    "name": "Area Manager - West",
+    "parentId": "role_1",
+    "members": 2,
+    "childNumber": 1
+  },
+  {
+    "id": "role_6",
+    "name": "Location Manager - North Mall",
+    "parentId": "role_2",
+    "members": 2,
+    "childNumber": 6
+  },
+  {
+    "id": "role_7",
+    "name": "Location Manager - North Plaza",
+    "parentId": "role_2",
+    "members": 2,
+    "childNumber": 1
+  },
+  {
+    "id": "role_8",
+    "name": "Location Manager - South Center",
+    "parentId": "role_3",
+    "members": 2,
+    "childNumber": 1
+  },
+  {
+    "id": "role_9",
+    "name": "Location Manager - South Square",
+    "parentId": "role_3",
+    "members": 2,
+    "childNumber": 1
+  },
+  {
+    "id": "role_10",
+    "name": "Location Manager - East Mall",
+    "parentId": "role_4",
+    "members": 2,
+    "childNumber": 1
+  },
+  {
+    "id": "role_11",
+    "name": "Location Manager - West Plaza",
+    "parentId": "role_5",
+    "members": 2,
+    "childNumber": 1
+  },
+  {
+    "id": "role_12",
+    "name": "Shift Supervisor - Morning",
+    "parentId": "role_6",
+    "members": 4,
+    "childNumber": 2
+  },
+  {
+    "id": "role_13",
+    "name": "Shift Supervisor - Evening",
+    "parentId": "role_6",
+    "members": 4,
+    "childNumber": 1
+  },
+  {
+    "id": "role_14",
+    "name": "Team Leader - Customer Service",
+    "parentId": "role_12",
+    "members": 6,
+    "childNumber": 3
+  },
+  {
+    "id": "role_15",
+    "name": "Team Leader - Operations",
+    "parentId": "role_12",
+    "members": 5,
+    "childNumber": 1
+  },
+  {
+    "id": "role_16",
+    "name": "Senior Staff",
+    "parentId": "role_14",
+    "members": 12,
+    "childNumber": 1
+  },
+  {
+    "id": "role_17",
+    "name": "Staff",
+    "parentId": "role_14",
+    "members": 25,
+    "childNumber": 1
+  },
+  {
+    "id": "role_18",
+    "name": "Trainee",
+    "parentId": "role_14",
+    "members": 8,
+    "childNumber": 1
+  },
+  {
+    "id": "role_19",
+    "name": "Maintenance Supervisor",
+    "parentId": "role_6",
+    "members": 2,
+    "childNumber": 1
+  },
+  {
+    "id": "role_20",
+    "name": "Maintenance Staff",
+    "parentId": "role_19",
+    "members": 6,
+    "childNumber": 1
+  },
+  {
+    "id": "role_21",
+    "name": "Security Supervisor",
+    "parentId": "role_6",
+    "members": 2,
+    "childNumber": 1
+  },
+  {
+    "id": "role_22",
+    "name": "Security Staff",
+    "parentId": "role_21",
+    "members": 8,
+    "childNumber": 1
+  },
+  {
+    "id": "role_23",
+    "name": "Inventory Manager",
+    "parentId": "role_6",
+    "members": 1,
+    "childNumber": 1
+  },
+  {
+    "id": "role_24",
+    "name": "Inventory Staff",
+    "parentId": "role_23",
+    "members": 4,
+    "childNumber": 1
+  },
+  {
+    "id": "role_25",
+    "name": "Training Coordinator",
+    "parentId": "role_6",
+    "members": 2,
+    "childNumber": 1
+  },
+  {
+    "id": "role_26",
+    "name": "Employee",
+    "parentId": "role_7",
+    "members": 15,
+    "childNumber": 0
+  },
+  {
+    "id": "role_27",
+    "name": "Employee",
+    "parentId": "role_8",
+    "members": 18,
+    "childNumber": 0
+  },
+  {
+    "id": "role_28",
+    "name": "Employee",
+    "parentId": "role_9",
+    "members": 16,
+    "childNumber": 0
+  },
+  {
+    "id": "role_29",
+    "name": "Employee",
+    "parentId": "role_10",
+    "members": 14,
+    "childNumber": 0
+  },
+  {
+    "id": "role_30",
+    "name": "Employee",
+    "parentId": "role_11",
+    "members": 12,
+    "childNumber": 0
+  },
+  {
+    "id": "role_31",
+    "name": "Employee",
+    "parentId": "role_13",
+    "members": 20,
+    "childNumber": 0
+  },
+  {
+    "id": "role_32",
+    "name": "Employee",
+    "parentId": "role_15",
+    "members": 25,
+    "childNumber": 0
+  },
+  {
+    "id": "role_33",
+    "name": "Employee",
+    "parentId": "role_16",
+    "members": 12,
+    "childNumber": 0
+  },
+  {
+    "id": "role_34",
+    "name": "Employee",
+    "parentId": "role_17",
+    "members": 25,
+    "childNumber": 0
+  },
+  {
+    "id": "role_35",
+    "name": "Employee",
+    "parentId": "role_18",
+    "members": 8,
+    "childNumber": 0
+  },
+  {
+    "id": "role_36",
+    "name": "Employee",
+    "parentId": "role_20",
+    "members": 6,
+    "childNumber": 0
+  },
+  {
+    "id": "role_37",
+    "name": "Employee",
+    "parentId": "role_22",
+    "members": 8,
+    "childNumber": 0
+  },
+  {
+    "id": "role_38",
+    "name": "Employee",
+    "parentId": "role_24",
+    "members": 4,
+    "childNumber": 0
+  },
+  {
+    "id": "role_39",
+    "name": "Employee",
+    "parentId": "role_25",
+    "members": 2,
+    "childNumber": 0
+  }
+]
